@@ -108,15 +108,15 @@
   }
 }
 
-.contact-button {
-  @include border-radius(10px);
+.download-button {
+  @include border-radius(30px);
   background-color: #efefef;
   text-decoration: none;
   text-align: center;
   display: block;
-  margin: 1.5rem auto;
-  width: 200px;
-  font-size: 1.375rem;
+  margin: 1rem auto;
+  width: 150px;
+  font-size: 1.3rem;
   @include sans_light;
   color: #333;
   line-height: 55px;
