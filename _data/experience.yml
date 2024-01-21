@@ -2,13 +2,13 @@
 # VP of Global Communications
 - company: Senla
   position: Java-разработчик
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  duration: Март 2023 &mdash; настоящее время
+  summary: Проект: микросервис для агрегации предложений при кредитовании юрлиц в одном из Топ-3 банков в РФ. Участвую в реализации проекта с нуля в новой команде, много взаимодействую с аналитикой.<ul class="resume-item-list"><li><li>реализовала сервис мониторинга работоспособности самого агрегатора, а также смежных микросервисов;</li><li>участвую в принятии архитектурных решений;</li><li>инициировала ведение технической документации на проекте</li></ul>Внепроектная деятельность:<ul class="resume-item-list"><li>оформила справочный документ по Java и сопутствующим технологиям для подготовки начинающих специалистов, более 200 страниц;</li><li>провела внутренний доклад по Spring Cloud</li></ul>
 
 # Director of Digital Stratgy
 - company: Diasoft
   position: Java-разработчик
-  duration:  Jun, 2010 &mdash; Sept, 2013
+  duration:  Июнь 2022 &mdash; Март 2023
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
 
 
