@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Около 2 лет занимаюсь разработкой банковского программного обеспечения в качестве Java-разработчика.</p><p>Суммарный опыт составляет 6 лет: начинала с С++ и разработки диагностических правил для анализатора кода, потом перешла на разработку внутренних корпоративных инструментов на С#. В перспективе хочу добавить к своей коллекции языков Kotlin.</p>"
+resume_header_intro: "Около 2 лет занимаюсь разработкой банковского программного обеспечения в качестве Java-разработчика.<p>Суммарный опыт составляет 6 лет: начинала с С++ и разработки диагностических правил для анализатора кода, потом перешла на разработку внутренних корпоративных инструментов на С#. В перспективе хочу добавить к своей коллекции языков Kotlin.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
