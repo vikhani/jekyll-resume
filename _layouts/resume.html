@@ -10,7 +10,7 @@
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
 
       <header class="page-header">
-      <table>
+      <table width="50%">
        <tr>
           <th>
             <a href="files/resume.pdf" download="resume.pdf" class="download-button no-print">PDF</a>
@@ -48,12 +48,31 @@
 
       </header>
 
+            {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Навыки</h2>
+        </header>
+        <!--{% for skill in site.data.skills %}-->
+        <div class="resume-item">
+          <b class="resume-item-copy">Java, Spring Boot, PostgreSQL, Hibernate, MyBatis, Kafka, Kubernetes/Openshift</b>
+        </div>
+        <!--{% endfor %}-->
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+        <div class="executive-summary" itemprop="description">
+          {{ site.resume_header_intro }}
+        </div>
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Опыт</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -73,7 +92,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>Образование</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -96,10 +115,6 @@
       <!-- end Education -->
       {% endif %}
 
-        <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
-        </div>
-
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -118,23 +133,6 @@
 
       </section>
       <!-- end Projects -->
-      {% endif %}
-
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <b class="resume-item-copy">Java, Spring Boot, PostgreSQL, Hibernate, MyBatis, Kafka, Kubernetes/Openshift</b>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
       {% endif %}
 
       {% if site.resume_section_recognition %}
@@ -169,6 +167,7 @@
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
+          <h3 class="resume-item-details" itemprop="description">{{ association.stack }} </h3>
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
         {% endfor %}
@@ -202,14 +201,17 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2>Контакты</h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
+            <li>Тел.: +7 (902) 844-85-01</li>
+            <li>Почта: <a href="vikhanieva@gmail.com">vikhanieva@gmail.com</a></li>
+            <li>Telegram: <a href="https://t.me/vkhanieva">t.me/vkhanieva</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/vikhanieva">linkedin.com/in/vikhanieva</a></li>
+            <li>GitHub: <a href="https://github.com/vikhani">github.com/vikhani</a></li>
+            <li>Habr: <a href="https://habr.com/ru/users/vkhanieva/posts/">habr.com/ru/users/vkhanieva/posts/</a></li>
           </ul>
         </div>
 
@@ -222,7 +224,7 @@
       <section class="content-section print-only">
 
         <header class="section-header">
-          <h2>Social Links</h2>
+          <h2>Контакты</h2>
         </header>
 
         <div class="resume-item">
