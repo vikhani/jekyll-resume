@@ -110,15 +110,15 @@
 
 .download-button {
   @include border-radius(30px);
-  background-color: #efefef;
+  background-color: #141414;
   text-decoration: none;
   text-align: center;
   display: block;
   margin: 1rem auto;
-  width: 150px;
+  width: 130px;
   font-size: 1.3rem;
   @include sans_light;
-  color: #333;
+  color: #C2C2C2;
   line-height: 55px;
   @include transition(all .2s ease);
 

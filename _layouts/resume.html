@@ -10,13 +10,13 @@
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
 
       <header class="page-header">
-      <table width="80%">
+      <table width="90%">
        <tr>
           <th>
-            <a href="files/resume.pdf" download="resume.pdf" class="download-button no-print">PDF</a>
+            <img src="images/avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
           </th>
           <th>
-            <img src="images/avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
+            <a href="files/resume.pdf" download="resume.pdf" class="download-button no-print">📥 PDF</a>
           </th>
         </tr>
       </table>
@@ -48,7 +48,6 @@
 
       </header>
 
-            {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
 
@@ -57,7 +56,7 @@
         </header>
         <!--{% for skill in site.data.skills %}-->
         <div class="resume-item">
-          Java, Spring Boot, PostgreSQL, Hibernate, MyBatis, Liquibase, Kafka, K8s, OpenShift, Docker, Gradle, Maven | Английский C1
+          <b class="resume-item-copy">Java, Spring Boot, PostgreSQL, Hibernate, MyBatis, Liquibase, Kafka, K8s, OpenShift, Docker, Gradle, Maven | Английский C1</b>
         </div>
         <!--{% endfor %}-->
 
