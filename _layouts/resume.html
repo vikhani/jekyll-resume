@@ -10,16 +10,8 @@
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
 
       <header class="page-header">
-      <table width="90%">
-       <tr>
-          <th>
             <img src="images/avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
-          </th>
-          <th>
             <a href="files/resume.pdf" download="resume.pdf" class="download-button no-print">📥 PDF</a>
-          </th>
-        </tr>
-      </table>
         <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
@@ -50,16 +42,12 @@
 
       <!-- begin Skills -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Навыки</h2>
         </header>
-        <!--{% for skill in site.data.skills %}-->
-        <div class="resume-item">
-          <b class="resume-item-copy">Java, Spring Boot, PostgreSQL, Hibernate, MyBatis, Liquibase, Kafka, K8s, OpenShift, Docker, Gradle, Maven | Английский C1</b>
+        <div class="resume-item-details">
+          Java, Spring Boot, PostgreSQL, Hibernate, MyBatis, Liquibase, Kafka, K8s, OpenShift, Docker, Gradle, Maven | Английский C1
         </div>
-        <!--{% endfor %}-->
-
       </section>
       <!-- end Skills -->
 
